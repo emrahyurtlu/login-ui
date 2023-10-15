@@ -1,0 +1,31 @@
+{
+  "name": "login-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -w assets/styles/style.scss assets/styles/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emrahyurtlu/login-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emrahyurtlu/login-ui/issues"
+  },
+  "homepage": "https://github.com/emrahyurtlu/login-ui#readme",
+  "dependencies": {
+    "@fontsource/poppins": "^5.0.8",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "bootstrap": "^5.3.2",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

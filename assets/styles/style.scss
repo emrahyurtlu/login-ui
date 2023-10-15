@@ -1,0 +1,14 @@
+$blue: #3182CE;
+
+@import "./includes/fonts";
+@import "./includes/login";
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+$fa-font-path: "../fontawesome-free-6.4.2-web/webfonts";
+// importing core styling file
+@import "../fontawesome-free-6.4.2-web/scss/fontawesome.scss";
+
+// our project needs Solid + Brands
+@import "../fontawesome-free-6.4.2-web/scss/solid.scss";
+@import "../fontawesome-free-6.4.2-web/scss/brands.scss";

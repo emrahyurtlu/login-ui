@@ -1,0 +1,117 @@
+/* login-form-container */
+
+#login-form-container {
+   box-sizing: border-box;
+
+    position: absolute;
+    width: 1366px;
+    height: auto;
+    left: calc(50% - 1366px/2);
+    top: calc(50% - 768px/2);
+
+    background: #FFFFFF;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    //overflow: hidden;
+
+    h1 {
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 42px;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-family: 'Poppins';
+        font-weight: 300;
+        font-size: 16px;
+        color: #525252;
+        padding: 0;
+    }
+
+    form {
+        width: 364px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    input[type='text'], input[type='password']{
+        width: 100%;
+        height: 52px;
+        background: rgba(240, 237, 255, 0.8);
+        border-radius: 16px;
+        font-family: Poppins, 'Font Awesome 6 Free';
+        font-size: 1rem;    
+        padding-left: 1.5rem;
+        position: relative;
+        color: #1C1C1C;
+    }   
+
+    #forget-password-link {
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: .75rem;
+        text-decoration: none;
+    }
+
+    .btn-login{
+        width: 100%;
+        height: 52px;
+        border-radius: 16px;
+        background: linear-gradient(99.78deg, #5097DA -5.85%, #1B77CE 109.55%);
+        box-shadow: 0px 8px 21px rgba(0, 0, 0, 0.16);
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: .75rem;
+        color: #FFFFFF;
+    }
+
+    #login-form-footer{
+        margin-top: 3rem;
+
+        p {
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 14px;
+            color: #525252;
+            margin: 0 !important;
+        }
+        div {
+            color: #b1b1b1;
+            a {
+                font-family: Poppins;
+                font-weight: 400;
+                font-size: 14px;
+                text-decoration: none;
+            }
+        }
+    }
+
+    #login-right-image-container{
+        background: url('../images/righ-container.png');
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
+        background-repeat: no-repeat;
+        position: relative;
+        overflow: hidden;
+        background-size: cover;
+    }
+    #login-cover-filter{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #177fe0;
+        opacity: .5;
+    }
+}
